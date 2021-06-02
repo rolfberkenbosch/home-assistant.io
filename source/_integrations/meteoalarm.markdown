@@ -23,7 +23,7 @@ To enable this binary sensor, add the following lines to your `configuration.yam
 ```yaml
 binary_sensor:
   - platform: meteoalarm
-    country: "NL"
+    country: "netherlands"
     province: "Groningen"
 ```
 
@@ -34,7 +34,7 @@ name:
   default: meteoalarm
   type: string
 country:
-  description: The 2 letters of your country
+  description: The full name of your country in english format
   required: true
   type: string
 province:
